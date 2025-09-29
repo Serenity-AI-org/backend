@@ -1,0 +1,48 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+*.env
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Flask instance / database
+instance/
+*.sqlite3
+
+# Test / temp scripts (optional)
+simple_doctor_test.py
+verify_doctors.py
+x.py
+
+# Large/binary artifacts (keep in GridFS, not git)
+*.pdf
+*.xlsx
+*.csv
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.pkl
+*.pt
+*.onnx
+*.bin
